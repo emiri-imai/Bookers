@@ -4,3 +4,6 @@ class Book < ApplicationRecord
 end
 Book.create(title: nil).valid?
 Book.create(body: nil).valid?
+
+
+
